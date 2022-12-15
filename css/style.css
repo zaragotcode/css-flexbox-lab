@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box
+  }
+  
+
+  *::before, 
+  *::after {
+    box-sizing: inherit;
+  }
+
+
+
+  body {
+    background-color: #1b1b32;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: -10px;
+    padding: 0px 16px;
+    height: 36px;
+    background-color: #0a0a23;
+  }
+
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: white;
+}
+
+#welcome-h1 {
+    font-size: 40px;
+}
+
+#welcome-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 500;
+}
+
+#welcome-h3 {
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#searchbar {
+    border: none;
+    font-size: 8px;
+    height: 28px;
+    margin-top: 5px;
+    border-style: none;
+}
+
+#searchbar > input {
+    border: none;
+    width: 350px;
+    color: white;
+    background-color: #3b3b4f;
+    font-size: 16px;
+}
+
+#searchbar > input::placeholder {
+    color: #c2cbd5;
+}
+
+#searchbar > button {
+    border: none;
+    background-color: #3b3b4f;
+    height: 8px;
+
+}
+
+#fcc-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#logo {
+    width: 210px; 
+    height: 24px;
+    /* margin: 0px 0px 0px -150px; */
+    filter: invert(100%);
+    margin-right: 200px;
+}
+
+#menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 30px;
+    width: 70px;
+    margin: 4px 30px 0px 0px;
+    background-color: #0a0a23;
+    color: white;
+    font-size: 18px;
+}
+
+.donate-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #31708f;
+    height: 250px;
+    margin-top: -30px;
+    
+}
+
+#donate {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid black;
+    height: 230px;
+    background-color: #d9edf7;
+}
+
+#greetings {
+    margin-top: -60px;
+    
+}
+
+#greetings-p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#donate-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 300px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #1b1b32;
+    font-size: 16px;
+}
+
+
+.courses {
+    border: 3px solid white;
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: left;
+    color: white;
+    background-color: #3b3b4f;
+    width: 555px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 100px;
+    justify-content: left;
+}
+
+#course-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
